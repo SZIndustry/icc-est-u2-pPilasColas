@@ -1,18 +1,52 @@
-## Getting Started
+# Práctica logica pilas y colas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Información General
 
-## Folder Structure
+- **Título:** Práctica de Pilas y colas
+- **Asignatura:** Estructura de Datos  
+- **Carrera:** Computación  
+- **Estudiante:** Cristopher Salinas  
+- **Fecha:** 08/06/2025  
+- **Profesor:** Ing. Pablo Torres  
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Aplicación que implementa el uso de **pilas genéricas** para resolver dos problemas clásicos:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+• **Validación de signos:**  
+Verifica si una cadena de paréntesis, llaves y corchetes está balanceada y correctamente anidada.  
+(Ejemplo: `({[]})` es válida, `({[)]}` no lo es).
 
-## Dependency Management
+• **Ordenamiento de pila:**  
+Ordena una pila de números enteros de menor a mayor utilizando otra pila auxiliar.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+La aplicación utiliza una clase `StackG<T>` genérica como estructura base de pila.
+
+---
+
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+   ```bash
+   javac App.java
+
+2. Ejecuta 
+    ```bash
+   java App
+
+## Ejemplo de Uso 
+Cadena ingresada: ({[(]})
+
+La cadena no es válida.
+
+Entrada desordenado |
+2 -> 4 -> 1 -> 5 -> NULL
+
+Salida ordenado |
+1 -> 2 -> 4 -> 5 -> NULL
+
+
